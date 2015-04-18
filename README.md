@@ -11,7 +11,11 @@ Produces a multi-option prompt with selection possible through keyboard UP and D
 than Python).
 
 Example as shell utility:
-    $ python -m consolemenu "asdf" "qwer" "foo" "bar bababa?"
+```
+$ python -m consolemenu "asdf" "qwer" "foo" "bar bababa?"
+```
 
 Install with
-    $ sudo python setup.py install
+```
+$ sudo python setup.py install
+```
