@@ -12,10 +12,26 @@ than Python).
 
 Example as shell utility:
 ```
-$ python -m consolemenu "asdf" "qwer" "foo" "bar bababa?"
+$ python -m consolemenu "option 1" "option 2" "option 3" 
 ```
+
+Example from python script:
+
+    
+    >>> import consolemenu
+    >>> consolemenu.menu_prompt(['option 1', 'option 2', 'option 3'])
+
+Examples above produce an interactive menu as follows:
+
+    >>  option 1
+        option 2
+        option 3
 
 Install with
 ```
 $ sudo python setup.py install
 ```
+
+TODO:
+
+- Does not support proper coloring (as in with use of colored or termcolor) in the menu items.
