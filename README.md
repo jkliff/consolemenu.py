@@ -7,7 +7,7 @@ Command line menu prompt.
 Produces a multi-option prompt with selection possible through keyboard UP and DOWN strokes.
 
 - The function menu_prompt returns the index of the selected option.
-- If called as a script, prints to stdout the option (useful to build interactive shells scripts from languages othar
+- If called as a script, prints to stdout the option (useful to build interactive shells scripts from languages other
 than Python).
 
 Example as shell utility:
